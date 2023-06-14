@@ -19,7 +19,6 @@ fetchData()
 .catch(error => console.log(error))
 
 function modificarDom(info){
-  console.log(info)
   const infoo = {
     info1: info.items[0].snippet.thumbnails.high.url,
     info2: info.items[0].snippet.title,
