@@ -1,7 +1,7 @@
 const videoTitle = document.querySelector("#video-title")
 const videoImg = document.querySelector("#video-img");
 const videoA = document.querySelector("#videoA");
-const API = "https://youtube-v31.p.rapidapi.com/search?channelId=UCam8T03EOFBsNdR0thrFHdQ&part=snippet%2Cid&order=date&maxResults=3";
+const API = "https://youtube-v31.p.rapidapi.com/search?channelId=UCam8T03EOFBsNdR0thrFHdQ&part=snippet%2Cid&order=date&maxResults=1";
 
 const fetchData = () =>{
     const headers = {
