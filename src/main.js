@@ -20,7 +20,6 @@ fetchData()
 .catch(error => console.log(error))
 
 function modificarDom(info){
-  console.log(info)
   const infoo = {
     title: info.contents[0].video.title,
     image: info.contents[0].video.thumbnails[3].url,
